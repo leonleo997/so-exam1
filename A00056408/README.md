@@ -66,6 +66,10 @@ Obteniendo la siguiente información:
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/infoSO.PNG)  
 
 Esta imagen nos dice que el sistema posee lo siguiente:  
+| Nombre| valor|
+| ----- | ---- |
+| Tipo de kernel | linux |
+
 Tipo | Valor  
 --- | ---  
 Tipo de kernel | Linux  
