@@ -30,22 +30,29 @@ En este caso damos clic en el archivo SHA512SUMS y copiamos el que corresponde a
 Con esta verificación podemos proceder a cargar la imagen en la máquina virtual.  
 
 ## B. Instalación de Debian 9 en VirtualBox  
-**1.** Abrimos VirtualBox y Creamos una nueva maquina virtual Tipo Linux que tenga una versión de Debian de 64-bits con el tamaño de memorio y el tipo de disco duro que desee.  
-**2.** Vamos a las configuraciones de la máquina creada, damos click en `Almacenamiento`.  
-**3.** En el panel de `Dispositivos de almacenamiento`, nos ubicamos en `Controlador`. Damos click en el ícono de `Agregar una unidad óptica` y seleccionamos el disco. En este caso la imagen de Debian que verificamos anteriormente.  
+**1.** Abrimos VirtualBox y Creamos una nueva maquina virtual Tipo Linux que tenga una versión de Debian de 64-bits con el tamaño de memoria y el tipo de disco duro que desee.  
+**2.** Vamos a las configuraciones de la máquina creada y damos click en `Almacenamiento`.  
+**3.** En el panel de `Dispositivos de almacenamiento`, nos ubicamos en `Controlador`. Damos click en el ícono de `Agregar una unidad óptica` y seleccionamos el disco; En este caso cargamos la imagen de Debian que verificamos anteriormente.  
 **4.** Seleccionamos nuestra máquina creada y damos click en `Iniciar`.  
-**5.**  
-**6.**  
-**7.**  
-**8.**  
-**9.**  
-**10.**  
-**11.**  
-**12.**  
-**13.**  
-**14.**  
-**15.**  
-**16.**  
+**5.** Una vez iniciada la máquina veremos la interfaz para la instalación. Damos click en `Graphical install`.   
+**6.** Seleccionamos el idioma, la ubicación y la configuración de teclado deseada. Posteriormente, se procederá a instalar los componentes y a configurar la red.  
+**7.** Asignamos un nombre a la Máquina deseado. Por ejemplo, Debian9.  
+**8.** En este paso debes indicar un nombre para el equipo e identificar el dominio al que quieres que pertenezca este equipo, si no está claro solo escribe local.  
+**9.** Después asignamos una contraseña para el super usuario o root. Esta contraseña es muy importante pues permitirá configurar elementos clave del sistema, así como instalar nuevos paquetes de software entre otras. En este caso será `root`.  
+**10.** Escribimos el nombre completo del usuario y el nombre de usuario. Este usuario nuevo es diferente al root debido a que es con el que iniciaremos sesión normalmente. En ambos casos se llamará `VII`.  
+**11.** Asignamos una contraseña para el usuario anterior. En este caso será el mismo nombre de usuario, es decir, root.  
+**12.** Configuramos el reloj correspondiente a nuestra zona horaria.  
+**13.** En la siguiente pantalla seleccionamos entre las opciones `Guiado - utilizar todo el disco`. Esta opción destruirá toda la información del disco en donde se instale.  
+**14.** Luego indicamos el disco en el que se va a instalar Debian 9.  
+**15.** Indicamos el esquema de particionado mas sencillo y práctico, es decir, `Todos los ficheros en una partición`. 
+**16.** Seleccionamos `Finalizar el particionado y escribir los cambios en el disco` damos en continuar y seleccionamos `Sí` al preguntarnos si deseamos escribir los cambios en los discos. En este punto iniciará a instalar el sistema base entre otros.  
+**17.** Luego nos preguntará si deseamos analizar otro CD o DVD, aquí seleccionamos no debido a que se hará la instalación por red.  
+**18.** Seleccionamos la ubicación geografica para descargar los paquetes de software, trataremos de elegir una ubicación cercana donde haya una transferencia de archivos rápida. En este caso seleccionaremos a Colombia.
+**19.** Seleccionamos un servidor. En este caso `de.debian.org`.  
+**20.** Seleccionamos la configuración del proxy. En este caso lo dejamos en blanco.  
+**21.** En la siguiente pantalla se puede participar en el envío de estadísticas de uso paquetes, esto es una retro alimentación para el equipo de Debian. Se elige lo que se crea conveniente. En este caso seleccionaré `No`.  
+**22.** Seleccionamos los paquetes a instalar. En este caso eligiremos: `GNOME`, `Servidor de impresión`, `SSH server` y `Utilidades estándar del sistema`.  
+**23.** Esperamos a que se descarguen e instalen los paquetes seleccionados.  
 
 
 
