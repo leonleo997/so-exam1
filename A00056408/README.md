@@ -6,7 +6,8 @@
 A. [Validación del ISO de Debian 9.](#validacion)  
 
 # Desarrollo Parcial  
-<a name="valicacion"/>
+<project URL#validacion>  
+
 ## Pasos para validar el ISO de Debian 9  
 
 **1.** Descargar la imagen [Debian 9](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.4.0-amd64-netinst.iso).  
