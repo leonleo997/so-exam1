@@ -40,7 +40,7 @@ Con esta verificación podemos proceder a cargar la imagen en la máquina virtua
 **8.** En este paso debes indicar un nombre para el equipo e identificar el dominio al que quieres que pertenezca este equipo, si no está claro solo escribe local.  
 **9.** Después asignamos una contraseña para el super usuario o root. Esta contraseña es muy importante pues permitirá configurar elementos clave del sistema, así como instalar nuevos paquetes de software entre otras. En este caso será `root`.  
 **10.** Escribimos el nombre completo del usuario y el nombre de usuario. Este usuario nuevo es diferente al root debido a que es con el que iniciaremos sesión normalmente. En ambos casos se llamará `VII`.  
-**11.** Asignamos una contraseña para el usuario anterior. En este caso será el mismo nombre de usuario, es decir, root.  
+**11.** Asignamos una contraseña para el usuario anterior. En este caso será el mismo nombre de usuario, es decir, `vii`.  
 **12.** Configuramos el reloj correspondiente a nuestra zona horaria.  
 **13.** En la siguiente pantalla seleccionamos entre las opciones `Guiado - utilizar todo el disco`. Esta opción destruirá toda la información del disco en donde se instale.  
 **14.** Luego indicamos el disco en el que se va a instalar Debian 9.  
@@ -53,6 +53,24 @@ Con esta verificación podemos proceder a cargar la imagen en la máquina virtua
 **21.** En la siguiente pantalla se puede participar en el envío de estadísticas de uso paquetes, esto es una retro alimentación para el equipo de Debian. Se elige lo que se crea conveniente. En este caso seleccionaré `No`.  
 **22.** Seleccionamos los paquetes a instalar. En este caso eligiremos: `GNOME`, `Servidor de impresión`, `SSH server` y `Utilidades estándar del sistema`.  
 **23.** Esperamos a que se descarguen e instalen los paquetes seleccionados.  
+**24.** Seleccionamos `Sí` a la preguntarnos si deseamos instalar el cargador de arranque GRUB en el registro principal de arranque.  
+**25.** Seleccionamos `/dev/sda`.  
+**26.** Esperamos a que finalice la instalación y deberá salir algo como la siguiente imagen.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/instalacionDebian.PNG)  
+### Revisando información del Sistema Operativo
+Ahora revisaremos la información del sistema operativo instalado. Para esto digitamos el comando `uname` como se muestra a continuación:  
+```console
+user@Debian:~$ uname
+```
+Obteniendo la siguiente información:  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/infoSO.PNG)  
+
+Esta imagen nos dice que el sistema posee lo siguiente:  
+| Tipo   		  | Valor 		  |
+| --------------- | ------------- |
+| Tipo de kernel  | Linux		  |
+| Arquitectura del procesador | x86_64 |
+| Nombre para el equipo | DebianRoldan |
 
 
 
