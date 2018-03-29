@@ -67,7 +67,7 @@ Obteniendo la siguiente información:
 
 Esta imagen nos dice que el sistema posee lo siguiente:  
 Tipo | Valor 
----------------- | ------------- 
+--- | --- 
 Tipo de kernel | Linux 
 Arquitectura del procesador | x86_64 
 Nombre para el equipo | DebianRoldan 
