@@ -66,11 +66,11 @@ Obteniendo la siguiente información:
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/infoSO.PNG)  
 
 Esta imagen nos dice que el sistema posee lo siguiente:  
-Tipo | Valor 
---- | --- 
-Tipo de kernel | Linux 
-Arquitectura del procesador | x86_64 
-Nombre para el equipo | DebianRoldan 
+Tipo | Valor  
+--- | ---  
+Tipo de kernel | Linux  
+Arquitectura del procesador | x86_64  
+Nombre para el equipo | DebianRoldan  
 
 
 
