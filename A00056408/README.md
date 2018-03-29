@@ -66,15 +66,16 @@ Obteniendo la siguiente información:
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/infoSO.PNG)  
 
 Esta imagen nos dice que el sistema posee lo siguiente:  
-| Nombre| valor|
-| ----- | ---- |
-| Tipo de kernel | linux |
 
 Tipo | Valor  
 --- | ---  
 Tipo de kernel | Linux  
 Arquitectura del procesador | x86_64  
 Nombre para el equipo | DebianRoldan  
+Sistema operativo | GNU/LINUX  
+Info kernel | 4.9.0-6-amd64  
+Fecha publicación kernel | SMP Debian 4.9.82-1+deb9u3 (2018-03-02)  
+
 
 
 
