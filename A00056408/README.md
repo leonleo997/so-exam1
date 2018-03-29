@@ -105,6 +105,39 @@ vii@192.168.0.12´s password: vii
 Desplegandose lo que se muestra a continuación:  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/inicioPutty.PNG)  
 
+## Instalando git y tig  
+Ahora intentaremos instalar git y tig.  
+Primero instalaremos `git`. Para esto:  
+**1.** Ingresamos como root  
+```console
+user@Debian:~$ su
+```
+**2.** Ingresamos la contraseña que asignamos al instalar debian, es decir `root`.
+Escribimos el siguiente comando para instalarlo  
+ ```console
+root@Debian:~$ apt-get install git -y
+``` 
+**3.** Verificamos que esté instalado con el siguiente comando:  
+ ```console
+root@Debian:~$ git -version
+``` 
+veremos el siguiente resultado:  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/gitVersion.PNG)  
+
+Ahora instalaremos tig  
+Estando como root, escribimos el siguiente comando para instalarlo:  
+ ```console
+root@Debian:~$ apt-get install tig -y
+``` 
+**3.** Verificamos que esté instalado con el siguiente comando:  
+ ```console
+root@Debian:~$ tig -version
+``` 
+veremos el siguiente resultado:  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/tigVersion.PNG)  
+
+
+
 **7.**  
 **8.**  
 **9.**  
