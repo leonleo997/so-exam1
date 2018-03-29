@@ -58,9 +58,9 @@ Con esta verificación podemos proceder a cargar la imagen en la máquina virtua
 **26.** Esperamos a que finalice la instalación y deberá salir algo como la siguiente imagen.  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/instalacionDebian.PNG)  
 ### Revisando información del Sistema Operativo
-Ahora revisaremos la información del sistema operativo instalado. Para esto digitamos el comando `uname` como se muestra a continuación:  
+Ahora revisaremos la información del sistema operativo instalado. Para esto digitamos el comando `uname -a` como se muestra a continuación:  
 ```console
-user@Debian:~$ uname
+user@Debian:~$ uname -a
 ```
 Obteniendo la siguiente información:  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/infoSO.PNG)  
@@ -76,11 +76,14 @@ Sistema operativo | GNU/LINUX
 Info kernel | 4.9.0-6-amd64  
 Fecha publicación kernel | SMP Debian 4.9.82-1+deb9u3 (2018-03-02)  
 
+## Accediendo a través de Putty  
+ 
+Primero configuraremos las interfaces de red de la máquina. Para esto:
+**1.** Apagamos la mána virtual y abrimos sus configuraciones. Vamos a la opción de `Red` en la pestaña de `Adaptador 2` y habilitamos el adaptador de Red.  
+**2.** En la opción de `conectado a` seleccionamos `Adaptador puente` eligiendo como `Nombre` el que nos corresponda. En este caso será el Wireless.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/adaptadorPuente.PNG)  
 
-
-
-
-
+**3.** 
 
 
 **1.**  
