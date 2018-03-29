@@ -76,14 +76,42 @@ Sistema operativo | GNU/LINUX
 Info kernel | 4.9.0-6-amd64  
 Fecha publicación kernel | SMP Debian 4.9.82-1+deb9u3 (2018-03-02)  
 
-## Accediendo a través de Putty  
- 
-Primero configuraremos las interfaces de red de la máquina. Para esto:
-**1.** Apagamos la mána virtual y abrimos sus configuraciones. Vamos a la opción de `Red` en la pestaña de `Adaptador 2` y habilitamos el adaptador de Red.  
+## C. Accediendo a través de Putty  
+
+Usamos el siguiente comando  
+```console
+user@Debian:~$ ip a
+```
+Obteniendo como resultado la siguiente imagen, en ésta observamos que tiene dos interfaces, `lo` y `enp0s3`.   
+ ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/ipa.PNG)  
+Sin embarbo, para poder conectar a Putty primero debemos adicionar un adaptador red más. Para esto:  
+**1.** Apagamos la mána virtual y abrimos sus configuraciones. Vamos a la opción de `Red`>`Adaptador 2` y habilitamos el adaptador de Red.  
 **2.** En la opción de `conectado a` seleccionamos `Adaptador puente` eligiendo como `Nombre` el que nos corresponda. En este caso será el Wireless.  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/adaptadorPuente.PNG)  
+**3.** Iniciamos de nuevo la máquina y volvemos a usar el comando  
+```console
+user@Debian:~$ ip a
+```
+Obteniendo una interfaz adicional llamada `enp0s8` que será la que usaremos para acceder mediante putty.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/ipa2.PNG)  
+**4.** Abrimos Putty.
+**5.** Ingresamos como `host name` la dirección ip que muestra la interfaz `enp0s8` que es `192.168.0.12`, el `puerto` será el `22` y el `connection type` será tipo `ssh`. Después damos click en `Open`.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/configputty.PNG)  
+**6.** Al iniciar nos pedirá el nombre del login y la contraseña. El nombre será el usuario que configuramos al intalar Debian y la contraseña es la que se le asignó. En este caso vii y vii.  
+```console
+login as: vii
+vii@192.168.0.12´s password: vii
+```
+Desplegandose lo que se muestra a continuación:  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/inicioPutty.PNG)  
 
-**3.** 
+**7.**  
+**8.**  
+**9.**  
+**10.** 
+
+
+
 
 
 **1.**  
