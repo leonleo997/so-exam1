@@ -1,14 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [PARCIAL 1](#parcial-1)
+- [Desarrollo Parcial](#desarrollo-parcial)
+  - [Pasos para validar el ISO de Debian 9](#pasos-para-validar-el-iso-de-debian-9)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # PARCIAL 1   
 **Nombre:** Yesid Leonardo López  
 **Código:** A00056408 
   
-# Tabla de contenido  
-A. [Validación del ISO de Debian 9.](#validacion)  
-
 # Desarrollo Parcial  
-<project URL#validacion>  
 
 ## Pasos para validar el ISO de Debian 9  
+
 
 **1.** Descargar la imagen [Debian 9](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.4.0-amd64-netinst.iso).  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/Debian9.PNG)  
