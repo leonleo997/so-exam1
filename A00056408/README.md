@@ -184,6 +184,7 @@ Para importar la máquina virtual haremos lo siguiente:
 
 ## G. Comparación entre Debian 9 y CentOS7  
 A continuación se presenta un cuadro comparativo entre estas dos herramientas:  
+ 
 Característica | Debian 9 | CentOS7  
 --- | --- | ---  
 Permite instalar interfaz gráfica | Sí | No  
