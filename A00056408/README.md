@@ -1,8 +1,8 @@
 # Primer Parcial  
 **Nombre:** Yesid Leonardo López  
-**Código:** A00056408 
-**URL repositorio:** https://github.com/leonleo997/so-exam1.git    
-
+**Código:** A00056408  
+**URL repositorio:** https://github.com/leonleo997/so-exam1.git  
+ 
 **Tabla de Contenido**
 
 - [PARCIAL 1](#parcial-1)
@@ -184,7 +184,7 @@ Para importar la máquina virtual haremos lo siguiente:
 
 ## G. Comparación entre Debian 9 y CentOS7  
 A continuación se presenta un cuadro comparativo entre estas dos herramientas:  
- 
+
 Característica | Debian 9 | CentOS7  
 --- | --- | ---  
 Permite instalar interfaz gráfica | Sí | No  
