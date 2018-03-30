@@ -1,9 +1,22 @@
-# PARCIAL 1   
+# Primer Parcial  
 **Nombre:** Yesid Leonardo López  
 **Código:** A00056408 
-  
-# Desarrollo Parcial  
+**URL repositorio:** https://github.com/leonleo997/so-exam1.git    
 
+**Tabla de Contenido**
+
+- [PARCIAL 1](#parcial-1)
+- [Desarrollo Parcial](#desarrollo-parcial)
+  - [A. Validación del ISO de Debian 9](#a-validaci%C3%B3n-del-iso-de-debian-9)
+  - [B. Instalación de Debian 9 en VirtualBox](#b-instalaci%C3%B3n-de-debian-9-en-virtualbox)
+    - [Revisando información del Sistema Operativo](#revisando-informaci%C3%B3n-del-sistema-operativo)
+  - [C. Accediendo a través de Putty](#c-accediendo-a-trav%C3%A9s-de-putty)
+  - [D. Instalando git y tig](#d-instalando-git-y-tig)
+  - [E. Exportando Máquina Virtual](#e-exportando-m%C3%A1quina-virtual)
+  - [F. Importando Máquina Virtual](#f-importando-m%C3%A1quina-virtual)
+  - [G. Comparación entre Debian 9 y CentOS7](#g-comparaci%C3%B3n-entre-debian-9-y-centos7)
+
+# Desarrollo Parcial  
 ## A. Validación del ISO de Debian 9  
 
 **1.** Descargar la imagen [Debian 9](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.4.0-amd64-netinst.iso).  
@@ -105,7 +118,7 @@ vii@192.168.0.12´s password: vii
 Desplegandose lo que se muestra a continuación:  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/inicioPutty.PNG)  
 
-## Instalando git y tig  
+## D. Instalando git y tig  
 Ahora intentaremos instalar git y tig.  
 Primero instalaremos `git`. Para esto:  
 **1.** Ingresamos como root  
@@ -114,11 +127,11 @@ user@Debian:~$ su
 ```
 **2.** Ingresamos la contraseña que asignamos al instalar debian, es decir `root`.
 Escribimos el siguiente comando para instalarlo  
- ```console
+```console
 root@Debian:~$ apt-get install git -y
 ``` 
 **3.** Verificamos que esté instalado con el siguiente comando:  
- ```console
+```console
 root@Debian:~$ git -version
 ``` 
 veremos el siguiente resultado:  
@@ -126,44 +139,60 @@ veremos el siguiente resultado:
 
 Ahora instalaremos tig  
 Estando como root, escribimos el siguiente comando para instalarlo:  
- ```console
+```console
 root@Debian:~$ apt-get install tig -y
 ``` 
 **3.** Verificamos que esté instalado con el siguiente comando:  
- ```console
+```console
 root@Debian:~$ tig -version
 ``` 
 veremos el siguiente resultado:  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/tigVersion.PNG)  
-
-
-
-**7.**  
-**8.**  
-**9.**  
-**10.** 
-
-
-
-
-
-**1.**  
-**2.**  
-**3.**  
-**4.**  
-**5.**  
-**6.**  
-**7.**  
-**8.**  
-**9.**  
-**10.**  
-**11.**  
-**12.**  
-**13.**  
-**14.**  
-**15.**  
-**16.**  
-
-
-
  
+Ahora usaremos git para bajar este repositorio, y usaremos tig para ver el historial de commits hechos en el repositorio. para esto hacemos:  
+```console
+root@Debian:~$ git clone https://github.com/leonleo997/so-exam1.git
+``` 
+Después nos movemos a la carpeta `so-exam1` usando el siguiente comando  
+```console
+root@Debian:~$ cd so-exam1/
+``` 
+Estando dentro de la carpeta del repositorio ejecutamos el siguiente comando para ver el historial de commits hecho  
+```console
+root@Debian:~$ tig
+``` 
+y obtendremos algo como se ve a continuación:  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/tig.PNG)  
+ 
+## E. Exportando Máquina Virtual  
+Para exportar la máquina virtual haremos lo siguiente, teniendo la máquina virtual apagada:  
+**1.** Damos click en la viñeta de `Archivo` y seleccionamos `Exportar servicio virtualizado`.   
+**2.** Seleccionamos la máquina Dedian como se ve a continuación:  
+ ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/exportarDebian.PNG)  
+**3.** Elegimos la ubicación en donde quedará el archivo y damos siguiente.   
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/exportarDebian2.PNG)  
+**4.** Damos click en `exportar` y experamos a que se exporte la máquina.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/exportarFinal.PNG)  
+
+## F. Importando Máquina Virtual  
+Para importar la máquina virtual haremos lo siguiente:  
+**1.** Damos click en la viñeta de `Archivo` y seleccionamos `Importar servicio virtualizado`.   
+**2.** Seleccionamos la máquina Dedian exportada como se ve a continuación:  
+ ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/importarDebian.PNG)    
+**3.** Damos click en `Importar` y experamos a que se importe la máquina.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/importarFinal.PNG)  
+
+## G. Comparación entre Debian 9 y CentOS7  
+A continuación se presenta un cuadro comparativo entre estas dos herramientas:  
+Característica | Debian 9 | CentOS7  
+--- | --- | ---  
+Permite instalar interfaz gráfica | Sí | No  
+Forma en que hace las modificaciones | Backports | EPEL  
+Package Manager | 'apt-get' y 'aptitude' | yum  
+Paquetes | Posee más respecto a CentOS | Posee menos respecto a Debian  
+Fácil de instalar | No | Sí  
+Tamaño de ISO | 297 MB | 4.2 GB  
+Tipo distribución | Debian | RedHat  
+Rapidez | Menor | Mayor  
+Actualizaciones | Mayores | Menores  
+Confiabilidad | Mayor | Menor  
