@@ -1,0 +1,44 @@
+    1  apt-get vim
+    2  apt-get install vim
+    3  apt-get install yum
+    4  exit
+    5  apt-get install yum -y
+    6  exit
+    7  ls
+    8  cd ..
+    9  cd ..
+   10  cd ..
+   11  ls
+   12  cd etc/
+   13  ls
+   14  ls -la
+   15  cd ~
+   16  ls
+   17  yum install git -y
+   18  sudo yum install git -y
+   19  sudo yum install git -y
+   20  yum install git -y
+   21  yum reposite all
+   22  exit
+   23  yum install git -y
+   24  yum repolist all
+   25  yum repolist all
+   26  aptitude install yum
+   27  yum list
+   28  apt-get install yum
+   29  yum list
+   30  yum -version
+   31  ping 8.8.8.8
+   32  apt-get install git -v
+   33  gi
+   34  apt-get install git -y
+   35  git
+   36  git version
+   37  git -version
+   38  git --version
+   39  git
+   40  apt-get install tig -y
+   41  tig --version
+   42  history
+   43  touch command_list_root.txt
+   44  history>command_list_root.txt 
