@@ -185,15 +185,23 @@ Para importar la máquina virtual haremos lo siguiente:
 ## G. Comparación entre Debian 9 y CentOS7  
 A continuación se presenta un cuadro comparativo entre estos dos sistemas operativos:  
 
-Característica | Debian 9 | CentOS7  
---- | --- | ---  
-Permite instalar interfaz gráfica | Sí | No  
-Forma en que hace las modificaciones | Backports | EPEL  
-Package Manager | 'apt-get' y 'aptitude' | yum  
-Paquetes | Posee más respecto a CentOS | Posee menos respecto a Debian  
-Fácil de instalar | No | Sí  
-Tamaño de ISO | 297 MB | 4.2 GB  
-Tipo distribución | Debian | RedHat  
-Rapidez | Menor | Mayor  
-Actualizaciones | Mayores | Menores  
-Confiabilidad | Mayor | Menor  
+Debian 9 | CentOS7  
+--- | ---  
+Forma en que hace las modificaciones es mediante Backports | Forma en que hace las modificaciones es mediante EPEL  
+Package Manager que maneja es 'apt-get' y 'aptitude' | Package Manager que maneja es yum  
+A la hora de realizar la configuración, presenta muchos más pasos que CentOS7 | La rapidez es mucho mayor respecto a Debian debido a que ejecuta solo versiones estables de los programas  
+Tipo distribución es Debian | Tipo distribución es RedHat  
+El sistema de empaquetamiento de Debian facilita enormemente la actualización a nuevas versiones de software, una faceta muy aplaudida de este sistema operativo | Centos ofrece mucha más estabilidad operacional a sus usuarios debido a que es derivado de Red Hat Enterprise  
+Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado | Si el usuario es nuevo en linux y prefiere un entorno simple y sencillo lo mejor es iniciar usando este SO  
+Casi no existen malware o virus para este sistema operativo | Se ha convertido en uno de los sistemas de servidores líderes en servidores
+Debian sobrepasa a todas las otras distribuciones en lo bien integrados que están sus paquetes | Si se desea volver más escalable, se debe añadir más servidores  
+Actualmente Debian soporta un impresionante número de arquitecturas CPU: alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390, y sparc | El sistema operativo CentOS puede funcionar un ordenador durante bastante tiempo sin necesidad de actualizaciones del sistema adicionales  
+El peso de la versión debian-9.4.0-amd64-netinst es de 291 MB | El peso de la versión de 64 bits minimal es de 792 MB  
+
+
+## Referencias  
+
+http://gnu-linuxdebian.blogspot.com.co/2010/10/ventajas-desventajas-y-caracteristicas.html  
+https://www.debian.org/intro/why_debian.es.html  
+https://www.google.com.co/search?ei=IMrBWqOsL4jezwLn35DICQ&q=ventajas+y+desventajas+centos&oq=ventajas+y+desventajas+centos&gs_l=psy-ab.3...3155.3754.0.3847.6.5.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..6.0.0....0.acEFZnvRYJo  
+http://www.seabrookewindows.com/l3Mp5XKW6/  
