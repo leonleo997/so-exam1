@@ -181,6 +181,8 @@ Para importar la máquina virtual haremos lo siguiente:
  ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/importarDebian.PNG)    
 **3.** Damos click en `Importar` y experamos a que se importe la máquina.  
 ![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/importarFinal.PNG)  
+Podemos observar que se importó exitosamente la máquina.  
+![alt text](https://github.com/leonleo997/so-exam1/blob/master/A00056408/Images/importarExitosa.PNG)  
 
 ## G. Comparación entre Debian 9 y CentOS7  
 A continuación se presenta un cuadro comparativo entre estos dos sistemas operativos:  
